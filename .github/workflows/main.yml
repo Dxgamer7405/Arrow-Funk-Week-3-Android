@@ -69,7 +69,7 @@ jobs:
           haxelib git polymod https://github.com/MasterEric/polymod.git
           haxelib git linc_luajit https://github.com/jigsaw-4277821/linc_luajit.git
           haxelib git AndroidTools https://github.com/jigsaw-4277821/AndroidTools.git 
-          haxelib git extension-webview https://github.com/jigsaw-4277821/extension-webview.git --quiet
+          haxelib git extension-videoview https://github.com/jigsaw-4277821/extension-videoview.git --quiet
           haxelib list
           
       - name: Create Version Tag
