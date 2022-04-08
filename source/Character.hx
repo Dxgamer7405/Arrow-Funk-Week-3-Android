@@ -99,7 +99,7 @@ class Character extends FlxSprite
 				#if MODS_ALLOWED
 				var path:String = Paths.modFolders(characterPath);
 				if (!FileSystem.exists(path)) {
-					path = Paths.getPreloadPath(characterPath);
+					path = SUtil.getPath() + Paths.getPreloadPath(characterPath);
 				}
 
 				if (!FileSystem.exists(path))
@@ -108,7 +108,7 @@ class Character extends FlxSprite
 				if (!Assets.exists(path))
 				#end
 				{
-					path = Paths.getPreloadPath('characters/' + DEFAULT_CHARACTER + '.json'); //If a character couldn't be found, change him to BF just to prevent a crash
+					path = SUtil.getPath() + Paths.getPreloadPath('characters/' + DEFAULT_CHARACTER + '.json'); //If a character couldn't be found, change him to BF just to prevent a crash
 				}
 
 				#if MODS_ALLOWED
@@ -120,7 +120,7 @@ class Character extends FlxSprite
 				var json:CharacterFile = cast Json.parse(rawJson);
 				#if MODS_ALLOWED
 				var txtToFind:String = Paths.getPath('images/' + json.image + '.txt', TEXT);
-				if(FileSystem.exists(txtToFind) || Assets.exists(txtToFind))
+				if(FileSystem.exists(SUtil.getPath() + txtToFind) || Assets.exists(txtToFind))
 				#else
 				if(Assets.exists(Paths.getPath('images/' + json.image + '.txt', TEXT)))
 				#end
