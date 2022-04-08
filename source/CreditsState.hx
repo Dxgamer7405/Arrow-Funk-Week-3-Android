@@ -89,6 +89,10 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
+			['Epik Guy'],
+			['M.A. Jigsaw',		    'majigsaw',		    'Android Controls Code and it helped me a lot',	 'https://www.youtube.com/channel/UC2Sk7vtPzOvbVzdVTWrribQ',	'0xFFC30085'],
+			['Android Port'],
+			['Dxgamer',		    'dxgamer',		    'Porter',	 'https://youtube.com/c/Dxgamer7405',	'0xFFC30085'],
 			['Arrow Fnuk uwu'],
 			['Yoisabo',				'yoisabo',			'Director, Artist, Character Designer, Background artist, Animator, Sprite animator, Programmer, Charter, Composer, im dead help \n*zombie noises*',												'https://twitter.com/abo_bora',				'C6297F'],
 			['Roxo Depressivo',		'murasaki',			'Artist and Character Designer',						'https://twitter.com/Roxo_Depressivo',		'441C8C'],
