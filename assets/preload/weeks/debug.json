@@ -1,0 +1,30 @@
+{
+	"songs": [
+		[
+			"-debug",
+			"bidupixel",
+			[
+				66,
+				53,
+				135
+			]
+		]	
+	],
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"storyName": "",
+	"weekName": "",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": true,
+	"weekBefore": "week3",
+	"startUnlocked": true
+}

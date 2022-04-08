@@ -1,0 +1,247 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				53
+			],
+			"loop": false,
+			"anim": "cheer",
+			"fps": 24,
+			"name": "BARBARA Cheer",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				-19
+			],
+			"loop": false,
+			"anim": "sad",
+			"fps": 24,
+			"name": "BARBARA sad",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12
+			]
+		},
+		{
+			"offsets": [
+				0,
+				-9
+			],
+			"loop": false,
+			"anim": "danceLeft",
+			"fps": 24,
+			"name": "BARBARA Dancing Beat",
+			"indices": [
+				30,
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		},
+		{
+			"offsets": [
+				0,
+				-9
+			],
+			"loop": false,
+			"anim": "danceRight",
+			"fps": 24,
+			"name": "BARBARA Dancing Beat",
+			"indices": [
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29
+			]
+		},
+		{
+			"offsets": [
+				0,
+				-123
+			],
+			"loop": false,
+			"anim": "danceLeftSCARED",
+			"fps": 24,
+			"name": "BARBARA Dancing Beat SCARED",
+			"indices": [
+				30,
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		},
+		{
+			"offsets": [
+				0,
+				-123
+			],
+			"loop": true,
+			"anim": "danceRightSCARED",
+			"fps": 24,
+			"name": "BARBARA Dancing Beat SCARED",
+			"indices": [
+				30,
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		},
+		{
+			"offsets": [
+				0,
+				-9
+			],
+			"loop": false,
+			"anim": "danceLeftSUS",
+			"fps": 24,
+			"name": "BARBARA SUS Dancing Beat",
+			"indices": [
+				30,
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		},
+		{
+			"offsets": [
+				0,
+				-9
+			],
+			"loop": false,
+			"anim": "danceRightSUS",
+			"fps": 24,
+			"name": "BARBARA SUS Dancing Beat",
+			"indices": [
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29
+			]
+		},
+		{
+			"offsets": [
+				0,
+				-122
+			],
+			"loop": false,
+			"anim": "spawn",
+			"fps": 24,
+			"name": "BARBARA Spawn",
+			"indices": []
+		},
+		{
+			"offsets": [
+				24,
+				9
+			],
+			"loop": false,
+			"anim": "shock",
+			"fps": 24,
+			"name": "BARBARA Shock",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/BARBARA_RASPBERRY",
+	"position": [
+		-35,
+		0
+	],
+	"healthicon": "barbara",
+	"flip_x": false,
+	"healthbar_colors": [
+		165,
+		0,
+		77
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

@@ -1,0 +1,116 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				138,
+				-49
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Sagu Sing Note LEFT",
+			"indices": []
+		},
+		{
+			"offsets": [
+				20,
+				-62
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Sagu Sing Note DOWN",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-7,
+				51
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Sagu Sing Note UP",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-1,
+				4
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Sagu Sing Note RIGHT",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 24,
+			"name": "Sagu idle dance",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle-loop",
+			"indices": [
+				10,
+				11,
+				12,
+				12
+			],
+			"name": "Sagu idle dance"
+		},
+		{
+			"offsets": [
+				54,
+				72
+			],
+			"loop": false,
+			"anim": "throwmic",
+			"fps": 24,
+			"name": "Sagu mic throw",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-3,
+				-59
+			],
+			"loop": false,
+			"anim": "micend",
+			"fps": 24,
+			"name": "Sagu end animation",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/SAGU_FIRE",
+	"position": [
+		-70,
+		0
+	],
+	"healthicon": "sagufire",
+	"flip_x": false,
+	"healthbar_colors": [
+		175,
+		75,
+		135
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

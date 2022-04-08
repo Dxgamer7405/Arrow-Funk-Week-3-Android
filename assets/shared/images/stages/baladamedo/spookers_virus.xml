@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="spookers_virus.png">
+	<!-- Created with Adobe Animate version 18.0.1.115 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SPEAKERS_VIRUS0000" x="0" y="0" width="2756" height="1001" pivotX="1339.6" pivotY="465.95"/>
+	<SubTexture name="SPEAKERS_VIRUS0001" x="0" y="1003" width="2756" height="1001"/>
+	<SubTexture name="SPEAKERS_VIRUS0002" x="0" y="1003" width="2756" height="1001"/>
+	<SubTexture name="SPEAKERS_VIRUS0003" x="0" y="2006" width="2756" height="1001"/>
+	<SubTexture name="SPEAKERS_VIRUS0004" x="0" y="2006" width="2756" height="1001"/>
+	<SubTexture name="SPEAKERS_VIRUS0005" x="0" y="3009" width="2756" height="1001"/>
+	<SubTexture name="SPEAKERS_VIRUS0006" x="0" y="3009" width="2756" height="1001"/>
+	<SubTexture name="SPEAKERS_VIRUS0007" x="0" y="4012" width="2756" height="1001"/>
+	<SubTexture name="SPEAKERS_VIRUS0008" x="0" y="4012" width="2756" height="1001"/>
+	<SubTexture name="SPEAKERS_VIRUS0009" x="0" y="4012" width="2756" height="1001"/>
+	<SubTexture name="SPEAKERS_VIRUS0010" x="0" y="4012" width="2756" height="1001"/>
+	<SubTexture name="SPEAKERS_VIRUS0011" x="0" y="4012" width="2756" height="1001"/>
+	<SubTexture name="SPEAKERS_VIRUS0012" x="0" y="4012" width="2756" height="1001"/>
+	<SubTexture name="SPEAKERS_VIRUS0013" x="0" y="4012" width="2756" height="1001"/>
+	<SubTexture name="SPEAKERS_VIRUS0014" x="0" y="4012" width="2756" height="1001"/>
+	<SubTexture name="SPEAKERS_VIRUS0015" x="0" y="4012" width="2756" height="1001"/>
+	<SubTexture name="SPEAKERS_VIRUS0016" x="0" y="4012" width="2756" height="1001"/>
+	<SubTexture name="SPEAKERS_VIRUS0017" x="0" y="4012" width="2756" height="1001"/>
+	<SubTexture name="SPEAKERS_VIRUS0018" x="0" y="4012" width="2756" height="1001"/>
+	<SubTexture name="SPEAKERS_VIRUS0019" x="0" y="4012" width="2756" height="1001"/>
+	<SubTexture name="SPEAKERS_VIRUS0020" x="0" y="4012" width="2756" height="1001"/>
+	<SubTexture name="SPEAKERS_VIRUS0021" x="0" y="4012" width="2756" height="1001"/>
+	<SubTexture name="SPEAKERS_VIRUS0022" x="0" y="4012" width="2756" height="1001"/>
+	<SubTexture name="SPEAKERS_VIRUS0023" x="0" y="4012" width="2756" height="1001"/>
+	<SubTexture name="SPEAKERS_VIRUS0024" x="0" y="4012" width="2756" height="1001"/>
+	<SubTexture name="SPEAKERS_VIRUS0025" x="0" y="4012" width="2756" height="1001"/>
+	<SubTexture name="SPEAKERS_VIRUS0026" x="0" y="4012" width="2756" height="1001"/>
+	<SubTexture name="SPEAKERS_VIRUS0027" x="0" y="4012" width="2756" height="1001"/>
+</TextureAtlas>

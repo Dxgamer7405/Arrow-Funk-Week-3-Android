@@ -1,0 +1,43 @@
+{
+	"storyName": "Favela Owner",
+	"weekBackground": "stage",
+	"hideFreeplay": false,
+	"weekBefore": "week2",
+	"startUnlocked": true,
+	"songs": [
+		[
+			"shacklesz",
+			"dono",
+			[
+				108,
+				40,
+				80
+			]
+		],
+		[
+			"blam",
+			"dono",
+			[
+				88,
+				20,
+				80
+			]
+		],
+		[
+			"loaded",
+			"donoangry",
+			[
+				68,
+				20,
+				80
+			]
+		]
+	],
+	"weekCharacters": [
+		"dono",
+		"bidu",
+		"barbara"
+	],
+	"hideStoryMode": false,
+	"weekName": "Week 3"
+}

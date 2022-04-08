@@ -1,0 +1,43 @@
+{
+	"storyName": "Grape Sago",
+	"weekBackground": "stage",
+	"hideFreeplay": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Reboop",
+			"sagu",
+			[
+				136,
+				93,
+				200
+			]
+		],
+		[
+			"Fresher",
+			"sagu",
+			[
+				156,
+				93,
+				195
+			]
+		],
+		[
+			"Rap King",
+			"sagufire",
+			[
+				176,
+				93,
+				155
+			]
+		]
+	],
+	"weekCharacters": [
+		"sagu",
+		"bidu",
+		"barbara"
+	],
+	"weekName": "Week 1"
+}

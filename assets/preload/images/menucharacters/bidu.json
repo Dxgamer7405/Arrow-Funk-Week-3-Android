@@ -1,0 +1,10 @@
+{
+	"idle_anim": "BiduDance",
+	"confirm_anim": "BiduHey",
+	"position": [
+		-267,
+		-44
+	],
+	"scale": 0.53,
+	"image": "Menu_Bidu"
+}

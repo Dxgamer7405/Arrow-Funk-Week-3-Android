@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				206,
+				46
+			],
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Salsicha Down"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				439,
+				141
+			],
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Salsicha Left"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				182,
+				421
+			],
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Salsicha Up"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				75,
+				203
+			],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Salsicha Right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				240,
+				140
+			],
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Salsicha Idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/SALSICHA_BOMBADO",
+	"position": [
+		10,
+		0
+	],
+	"healthicon": "salsichabomb",
+	"flip_x": false,
+	"healthbar_colors": [
+		115,
+		255,
+		255
+	],
+	"camera_position": [
+		-60,
+		-80
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

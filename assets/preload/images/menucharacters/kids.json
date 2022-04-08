@@ -1,0 +1,10 @@
+{
+	"idle_anim": "SpookyDance(lol)",
+	"confirm_anim": "M Dad Idle",
+	"position": [
+		170,
+		141
+	],
+	"scale": 0.53,
+	"image": "AF"
+}

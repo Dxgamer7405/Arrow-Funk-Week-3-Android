@@ -1,0 +1,10 @@
+{
+	"idle_anim": "SaguDance",
+	"confirm_anim": "M Dad Idle",
+	"position": [
+		108,
+		189
+	],
+	"scale": 0.53,
+	"image": "AF"
+}

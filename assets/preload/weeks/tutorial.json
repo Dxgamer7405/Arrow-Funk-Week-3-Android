@@ -1,0 +1,25 @@
+{
+	"storyName": "Kevin",
+	"weekBackground": "stage",
+	"hideFreeplay": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"songs": [
+		[
+			"Tutorial",
+			"kevin",
+			[
+				255,
+				190,
+				40
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"bidu",
+		"kevin"
+	],
+	"hideStoryMode": false,
+	"weekName": "Tutorial"
+}

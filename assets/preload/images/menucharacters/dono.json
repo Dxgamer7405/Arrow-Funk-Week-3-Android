@@ -1,0 +1,10 @@
+{
+	"idle_anim": "DonoDance",
+	"confirm_anim": "M Dad Idle",
+	"position": [
+		176,
+		64
+	],
+	"scale": 0.53,
+	"image": "AF"
+}

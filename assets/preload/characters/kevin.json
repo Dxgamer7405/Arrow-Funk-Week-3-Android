@@ -1,0 +1,133 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-7,
+				-12
+			],
+			"fps": 24,
+			"anim": "cheer",
+			"indices": [],
+			"name": "KEVIN Cheer"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				136,
+				-2
+			],
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "KEVIN left note"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-40
+			],
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "KEVIN Down Note"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-9,
+				112
+			],
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "KEVIN Up Note"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-41,
+				-18
+			],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "KEVIN Right Note"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-9
+			],
+			"fps": 24,
+			"anim": "danceLeft",
+			"indices": [
+				30,
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"name": "KEVIN Dancing Beat"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-9
+			],
+			"fps": 24,
+			"anim": "danceRight",
+			"indices": [
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29
+			],
+			"name": "KEVIN Dancing Beat"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/KevinLOL",
+	"position": [
+		50,
+		40
+	],
+	"healthicon": "kevin",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

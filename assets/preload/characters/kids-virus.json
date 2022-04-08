@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				80,
+				57
+			],
+			"anim": "hey",
+			"fps": 24,
+			"name": "spooky kids YEAH!!",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				104,
+				12
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "spooky left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				90,
+				22
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "spooky right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-44,
+				-103
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "spooky down",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 24,
+			"name": "spooky dance idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				62,
+				101
+			],
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "spooky up"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-22
+			],
+			"fps": 24,
+			"anim": "skeletons",
+			"indices": [],
+			"name": "spooky scary"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/KIDS_VIRUS",
+	"position": [
+		-70,
+		40
+	],
+	"healthicon": "virus",
+	"flip_x": false,
+	"healthbar_colors": [
+		155,
+		246,
+		0
+	],
+	"camera_position": [
+		60,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "BIDU idle dance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				67,
+				-7
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "BIDU NOTE LEFT0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-22,
+				-38
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "BIDU NOTE DOWN0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				22,
+				59
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "BIDU NOTE UP0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-77,
+				-15
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "BIDU NOTE RIGHT0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/biduPixel",
+	"position": [
+		-70,
+		-20
+	],
+	"healthicon": "bidupixel",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		95,
+		155
+	],
+	"camera_position": [
+		0,
+		10
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

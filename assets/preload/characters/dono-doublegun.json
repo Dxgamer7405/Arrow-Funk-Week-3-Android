@@ -1,0 +1,166 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-3,
+				-2
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 24,
+			"name": "Dono Idle Dance",
+			"indices": []
+		},
+		{
+			"offsets": [
+				73,
+				-19
+			],
+			"loop": false,
+			"anim": "fail",
+			"fps": 24,
+			"name": "Dono Fail",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-24,
+				3
+			],
+			"loop": false,
+			"anim": "out",
+			"fps": 24,
+			"name": "Dono Out",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-2,
+				-15
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Dono NOTE LEFT0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-30,
+				0
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Dono Note Right0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				3,
+				71
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Dono Up note0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-20,
+				-37
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Dono Down Note0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				111,
+				204
+			],
+			"anim": "singDOWN-shoot",
+			"fps": 24,
+			"name": "Dono Note Down shoot",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				70,
+				199
+			],
+			"anim": "singLEFT-shoot",
+			"fps": 24,
+			"name": "Dono Note Left shoot",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				96,
+				104
+			],
+			"anim": "singRIGHT-shoot",
+			"fps": 24,
+			"name": "Dono Note Right shoot",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-19,
+				27
+			],
+			"anim": "singUP-shoot",
+			"fps": 24,
+			"name": "Dono Note Up shoot",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-17,
+				8
+			],
+			"anim": "mic",
+			"fps": 24,
+			"name": "Dono mic",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				47,
+				121
+			],
+			"anim": "hey",
+			"fps": 24,
+			"name": "Dono hey",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/DONO_DOUBLEGUN",
+	"position": [
+		-63,
+		208
+	],
+	"healthicon": "donoangry",
+	"flip_x": false,
+	"healthbar_colors": [
+		40,
+		80,
+		100
+	],
+	"camera_position": [
+		20,
+		40
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

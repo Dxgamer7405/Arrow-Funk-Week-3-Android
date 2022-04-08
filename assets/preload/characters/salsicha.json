@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				204,
+				31
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Salsicha Down",
+			"indices": []
+		},
+		{
+			"offsets": [
+				263,
+				98
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Salsicha Left",
+			"indices": []
+		},
+		{
+			"offsets": [
+				64,
+				250
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Salsicha Up",
+			"indices": []
+		},
+		{
+			"offsets": [
+				81,
+				145
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Salsicha Right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				80,
+				180
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 24,
+			"name": "Salsicha Idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				243,
+				196
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "tampa",
+			"loop": false,
+			"name": "Salsicha Tampa"
+		},
+		{
+			"offsets": [
+				80,
+				173
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "risada",
+			"loop": false,
+			"name": "Salsicha Risada"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/SALSICHA",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "salsicha",
+	"flip_x": false,
+	"healthbar_colors": [
+		155,
+		195,
+		40
+	],
+	"camera_position": [
+		-60,
+		-80
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}
