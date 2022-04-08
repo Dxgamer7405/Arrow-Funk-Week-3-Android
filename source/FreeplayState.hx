@@ -213,7 +213,7 @@ class FreeplayState extends MusicBeatState
 		add(text);
 
                 #if android
-                addVirtualPad(FULL, A_B_C_X_Y);
+	        addVirtualPad(FULL, A_B_X_Y);
                 #end
 
 		super.create();
@@ -278,9 +278,10 @@ class FreeplayState extends MusicBeatState
 
 		var upP = controls.UI_UP_P;
 		var downP = controls.UI_DOWN_P;
+		var leftP = controls.UI_LEFT_P;
+		var rightP = controls.UI_RIGHT_P;
 		var accepted = controls.ACCEPT;
 		var space = FlxG.keys.justPressed.SPACE #if android || _virtualpad.buttonX.justPressed #end;
-		var ctrl = FlxG.keys.justPressed.CONTROL #if android || _virtualpad.buttonC.justPressed #end;
 
 		var shiftMult:Int = 1;
 		if(FlxG.keys.pressed.SHIFT) shiftMult = 3;
@@ -308,11 +309,13 @@ class FreeplayState extends MusicBeatState
 			MusicBeatState.switchState(new MainMenuState());
 		}
 
-		if(ctrl)
+		if(space)
 		{
+			
 			openSubState(new GameplayChangersSubstate());
 		}
-		else if (space)
+
+		else if (playso)
 		{
 			if(instPlaying != curSelected)
 				{
@@ -376,7 +379,6 @@ class FreeplayState extends MusicBeatState
 		}
 		else if(controls.RESET #if android || _virtualpad.buttonY.justPressed #end)
 		{
-			persistentUpdate = false;
 			openSubState(new ResetScoreSubState(songs[curSelected].songName, curDifficulty, songs[curSelected].songCharacter));
 			FlxG.sound.play(Paths.sound('scrollMenu'));
 		}
