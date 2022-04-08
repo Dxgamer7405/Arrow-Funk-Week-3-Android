@@ -3,15 +3,15 @@ import openfl.net.NetConnection;
 import openfl.net.NetStream;
 import openfl.events.NetStatusEvent;
 import openfl.media.Video;
+#elseif android
+import extension.videoview.VideoView;
+import android.AndroidTools;
 #else
 import openfl.events.Event;
 import vlc.VlcBitmap;
 #end
 import flixel.FlxBasic;
 import flixel.FlxG;
-#elseif android
-import extension.videoview.VideoView;
-import android.AndroidTools;
 
 class FlxVideo extends FlxBasic {
 	#if VIDEOS_ALLOWED
@@ -56,7 +56,7 @@ class FlxVideo extends FlxBasic {
 		        if (finishCallback != null){
 			        finishCallback();
 		        }
-                }
+                }             
 
 		#elseif desktop
 		// by Polybius, check out PolyEngine! https://github.com/polybiusproxy/PolyEngine
