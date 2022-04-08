@@ -9,6 +9,9 @@ import vlc.VlcBitmap;
 #end
 import flixel.FlxBasic;
 import flixel.FlxG;
+#elseif android
+import extension.videoview.VideoView;
+import android.AndroidTools;
 
 class FlxVideo extends FlxBasic {
 	#if VIDEOS_ALLOWED
@@ -45,6 +48,15 @@ class FlxVideo extends FlxBasic {
 			}
 		});
 		netStream.play(name);
+
+	        #elseif android
+
+                VideoView.playVideo(AndroidTools.getFileUrl(name));
+                VideoView.onCompletion = function(){
+		        if (finishCallback != null){
+			        finishCallback();
+		        }
+                }
 
 		#elseif desktop
 		// by Polybius, check out PolyEngine! https://github.com/polybiusproxy/PolyEngine
