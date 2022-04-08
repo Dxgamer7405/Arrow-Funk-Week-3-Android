@@ -42,7 +42,7 @@ class GameOverSubstate extends MusicBeatSubstate
 		PlayState.instance.callOnLuas('onGameOverStart', []);
 
     #if android
-	  addVirtualPad(FULL, A_B);
+	  addVirtualPad(NONE, A_B);
     #end
 
 		super.create();
