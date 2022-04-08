@@ -4369,7 +4369,7 @@ class PlayState extends MusicBeatState
 		var rightP = controls.NOTE_RIGHT_P;
 		var downP = controls.NOTE_DOWN_P;
 		var leftP = controls.NOTE_LEFT_P;
-		var controlHoldArray:Array<Bool> = [left, down, up, right];
+		var controlArray:Array<Bool> = [leftP, downP, upP, rightP];
 		
 		var controlArray:Array<Bool> = [controls.NOTE_LEFT_P, controls.NOTE_DOWN_P, controls.NOTE_UP_P, controls.NOTE_RIGHT_P];
 		if(controlArray.contains(true))
