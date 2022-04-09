@@ -4371,15 +4371,18 @@ class PlayState extends MusicBeatState
 		var left = controls.NOTE_LEFT;
 		var controlHoldArray:Array<Bool> = [left, down, up, right];
 		
-		var controlArray:Array<Bool> = [controls.NOTE_LEFT_P, controls.NOTE_DOWN_P, controls.NOTE_UP_P, controls.NOTE_RIGHT_P];
-		if(controlArray.contains(true))
+		// TO DO: Find a better way to handle controller inputs, this should work for now
+		if(ClientPrefs.controllerMode)
 		{
-			for (i in 0...controlArray.length)
+			var controlArray:Array<Bool> = [controls.NOTE_LEFT_P, controls.NOTE_DOWN_P, controls.NOTE_UP_P, controls.NOTE_RIGHT_P];
+			if(controlArray.contains(true))
 			{
-				if(controlArray[i])
-					onKeyPress(new KeyboardEvent(KeyboardEvent.KEY_DOWN, true, true, -1, keysArray[i][0]));
+				for (i in 0...controlArray.length)
+				{
+					if(controlArray[i])
+						onKeyPress(new KeyboardEvent(KeyboardEvent.KEY_DOWN, true, true, -1, keysArray[i][0]));
+				}
 			}
-		}
 
 		// FlxG.watch.addQuick('asdfa', upP);
 		if (!boyfriend.stunned && generatedMusic)
@@ -4409,16 +4412,19 @@ class PlayState extends MusicBeatState
 			}
 		}
 
-		var controlArray:Array<Bool> = [controls.NOTE_LEFT_R, controls.NOTE_DOWN_R, controls.NOTE_UP_R, controls.NOTE_RIGHT_R];
-		if(controlArray.contains(true))
+		// TO DO: Find a better way to handle controller inputs, this should work for now
+		if(ClientPrefs.controllerMode)
 		{
-			for (i in 0...controlArray.length)
+			var controlArray:Array<Bool> = [controls.NOTE_LEFT_R, controls.NOTE_DOWN_R, controls.NOTE_UP_R, controls.NOTE_RIGHT_R];
+			if(controlArray.contains(true))
 			{
-				if(controlArray[i])
-					onKeyRelease(new KeyboardEvent(KeyboardEvent.KEY_UP, true, true, -1, keysArray[i][0]));
+				for (i in 0...controlArray.length)
+				{
+					if(controlArray[i])
+						onKeyRelease(new KeyboardEvent(KeyboardEvent.KEY_UP, true, true, -1, keysArray[i][0]));
+				}
 			}
 		}
-	}
 
 	function noteMiss(daNote:Note):Void { //You didn't hit the key and let it go offscreen, also used by Hurt Notes
 		//Dupe note remove
