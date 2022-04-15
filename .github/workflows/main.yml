@@ -66,9 +66,8 @@ jobs:
           haxelib install flixel-ui 
           haxelib install flixel-addons
           haxelib install hscript
-          haxelib git polymod https://github.com/MasterEric/polymod.git
           haxelib git linc_luajit https://github.com/jigsaw-4277821/linc_luajit.git
-          haxelib git AndroidTools https://github.com/jigsaw-4277821/AndroidTools.git 
+          haxelib git extension-androidtools https://github.com/jigsaw-4277821/extension-androidtools.git   
           haxelib git extension-videoview https://github.com/jigsaw-4277821/extension-videoview.git --quiet
           haxelib list
           
@@ -80,7 +79,7 @@ jobs:
           haxelib run lime build android --app-version="4.0.0-${{ github.run_id}}"
           
       - name: Publish Artifact
-        uses: actions/upload-artifact@v2.2.4
+        uses: actions/upload-artifact@v3.0.0
         with:
           name: androidBuild
           path: export/release/android/bin/app/build/outputs/apk/debug
