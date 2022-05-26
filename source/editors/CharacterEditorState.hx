@@ -1179,7 +1179,8 @@ class CharacterEditorState extends MusicBeatState
 		{
 			prefix = prefix.substring(0, prefix.length-1);
 		}
-
+		
+//android port by dxgamer,dont steal
 		var text:String = prefix + Clipboard.text.replace('\n', '');
 		return text;
 	}
